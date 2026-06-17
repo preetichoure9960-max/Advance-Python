@@ -16,7 +16,8 @@ Variable unique to each object.
 
 ## Instance Method
 Methods that work with object data.
-Example:
+Example:'
+
 class Student:
 
     def __init__(self,name,roll):
@@ -26,7 +27,7 @@ class Student:
     def display(self):
         print("Name:",self.name)
         print("Roll:",self.roll)
-s1 = Student("Preeti",101)
-s1.display()
+ s1 = Student("Preeti",101)
+ s1.display()
 
 
