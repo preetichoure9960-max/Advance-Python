@@ -26,8 +26,7 @@ class Student:
     def display(self):
         print("Name:",self.name)
         print("Roll:",self.roll)
-
 s1 = Student("Preeti",101)
-
 s1.display()
+
 
